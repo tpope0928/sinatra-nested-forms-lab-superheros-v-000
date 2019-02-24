@@ -1,9 +1,6 @@
 class Team
-
   attr_reader :name, :motto
-
-  @@ships = []
-
+  @@all =[]
   def initialize(details)
     @name = details[:name]
     @motto = details[:motto]
